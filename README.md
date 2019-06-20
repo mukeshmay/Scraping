@@ -20,6 +20,8 @@ nexts = soup.find("a", {"title":"Go to next page"})
     
         break
 	
+Here "if" condition is being used in the below given code to avoid the error which occurs when no data to the category of the API is available..So it is used to avoid error and instead of that "N/A" is printed..
+	
 col3 = row.find('td', {'class': 'views-field views-field-field-article-primary-category'})
 the 
         if col3:
@@ -37,7 +39,6 @@ the
 	
             "N/A"
 	
-Here "if" condition is being used to avoid the error which occurs no data to the category of the API is available..So it is used to avoid error and instead of that "N/A" is printed..
 
 Then we convert daataframe using pandas dataframe:
 
