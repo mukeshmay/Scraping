@@ -1,7 +1,7 @@
 # SCRAPING
 
 
-##scraping_tb2
+## scraping_tb2
 
 "scraping_tb2" is the data extracted from the table which contains various API's like google maps, twitter, youtube, etc.. along with description, category and links to all of the API's..
 
@@ -51,7 +51,7 @@ Finally we convert it to csv file for further analysis..
 
 
 
-##scraping_4
+## scraping_4
 
 "scraping_4"  is the data of the various jobs avaiable, It is extracted along with relavant job information like location, description,
 date and attributes..from the following link: "https://boston.craigslist.org/search/npo"
