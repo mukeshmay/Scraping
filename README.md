@@ -46,6 +46,10 @@ Then we convert it to dataframe using pandas dataframe:
 
 Finally we convert it to csv file for further analysis..
 
+
+
+
+
 "scraping_4"  is the data of the various jobs avaiable, It is extracted along with relavant job information like location, description,
 date and attributes..from the following link: "https://boston.craigslist.org/search/npo"
 
