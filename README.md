@@ -1,10 +1,10 @@
 # SCRAPING
 
-"scraping_tb2" is the data extracted from the containing various API's like google maps, twitter, youtube, etc.. along with description, category and links to all of the API's..
+"scraping_tb2" is the data extracted from the table which contains various API's like google maps, twitter, youtube, etc.. along with description, category and links to all of the API's..
 
 It is been extracted from the following link: "https://www.programmableweb.com/apis/directory"
 
-All the data froom the all the pages has been extracted using next page url..
+All the data from the all the pages has been extracted using next page url..
 
 nexts = soup.find("a", {"title":"Go to next page"})
         
@@ -40,13 +40,13 @@ the
             "N/A"
 	
 
-Then we convert daataframe using pandas dataframe:
+Then we convert it to dataframe using pandas dataframe:
 
 #api_csv1 = pd.DataFrame.from_dict(table, orient = "index", columns = ["Name", "Link", "Description", "Category"])
 
 Finally we convert it to csv file for further analysis..
 
-"scraping_4"  is the data of the various jobs avaiable is extracted along with relavant job information like location, description,
+"scraping_4"  is the data of the various jobs avaiable, It is extracted along with relavant job information like location, description,
 date and attributes..from the following link: "https://boston.craigslist.org/search/npo"
 
 All the job is extracted from all the pages using the url of the next page..
